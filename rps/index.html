@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <header class="top-bar">
+      <a href="../trio-games/index.html" class="back-link">← Back to Hub</a>
+      <h1>Rock-Paper-Scissors</h1>
+    </header>
+
+    <section class="game">
+      <div class="scoreboard">
+        <div>Player: <span id="player-score">0</span></div>
+        <div>Computer: <span id="computer-score">0</span></div>
+      </div>
+
+      <p class="hint">Choose your move:</p>
+
+      <div class="choices">
+        <div class="choice-card" data-choice="rock">
+          <div class="emoji">🪨</div>
+          <div class="label">Rock</div>
+        </div>
+        <div class="choice-card" data-choice="paper">
+          <div class="emoji">📄</div>
+          <div class="label">Paper</div>
+        </div>
+        <div class="choice-card" data-choice="scissors">
+          <div class="emoji">✂️</div>
+          <div class="label">Scissors</div>
+        </div>
+      </div>
+
+      <div id="result"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
